@@ -1,0 +1,27 @@
+# n8n sensitive files
+database.sqlite
+*.sqlite
+*.sqlite-journal
+.DS_Store
+*.log
+
+# Credentials and tokens
+.env
+credentials.json
+*_credentials.json
+
+# Runtime data
+/tmp
+.tmp
+*.tmp
+*.temp
+
+# SSH keys
+ssh/id_*
+ssh/*.key
+ssh/*.pem
+ssh/known_hosts
+
+# Config files that might contain sensitive data
+config/*
+!config/example.config 
